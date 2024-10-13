@@ -26,7 +26,7 @@ jobs:
           python-version: '3.12.2'
 
       - name: Install requirements
-        run: pip install -r requirements.txt
+        run: pip install -r r.txt
 
       - name: Test env vars for python
         run: TEST_SECRET=${{ secrets.API}}

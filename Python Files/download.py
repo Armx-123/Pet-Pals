@@ -7,7 +7,7 @@ import random
 import time  # Add a small delay to avoid conflicts
 
 TOKEN = os.environ['TOKEN']
-CHANNEL_ID = '1287789992063664188'
+CHANNEL_ID = '1294938825004417054'
 SEND_message_proxy_url = f"https://discord.com/api/v9/channels/{CHANNEL_ID}/messages"
 
 headers = {

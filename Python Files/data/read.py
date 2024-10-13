@@ -1,7 +1,8 @@
 import requests
 import json
+import os
 def get(file,id):
-    TOKEN = 'MTIyNzg5NzY2MjU3MzkwMzg3Mg.GVRtbK.YymzvxH7wF4t6yXlK1QFGSAr9vAIHmYSzNDDio'
+    TOKEN = os.environ['TOKEN']
     DATA_CHANNEL_ID = id
 
     # Discord API endpoint for fetching messages

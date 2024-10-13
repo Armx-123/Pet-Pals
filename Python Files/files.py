@@ -50,4 +50,4 @@ async def on_ready():
     await download_attachments(channel,"Data")
 
 
-client.run('MTIyNzg5NzY2MjU3MzkwMzg3Mg.GVRtbK.YymzvxH7wF4t6yXlK1QFGSAr9vAIHmYSzNDDio')
+client.run(os.environ['TOKEN'])

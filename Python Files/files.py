@@ -51,3 +51,5 @@ async def on_ready():
 
 
 client.run(os.environ['TOKEN'])
+os.mkdir('Videos')
+os.mkdir('Videoss')

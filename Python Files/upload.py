@@ -148,7 +148,7 @@ def main():
     default_description = "Bounce with laughter!  This meme compilation brings you the funniest moments from the web.  Like & subscribe for more! #dankmemes #memes #fypシ #fyp"
     default_category = "23"
     default_keywords = "memes,dank memes"
-    default_privacy_status = "private"  # Assuming "private" is a valid privacy status
+    default_privacy_status = "public"  # Assuming "private" is a valid privacy status
 
     # Define the default values directly in the code
     argparser = argparse.ArgumentParser()

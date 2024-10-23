@@ -142,7 +142,7 @@ def resumable_upload(request):
 
 def main():
     default_file = "output_video.mp4"
-    with open("Data/Part.txt","r")as f:
+    with open("Data/part.txt","r")as f:
         part =f.read()
     default_title =f"Dogs being idiots part {part} #funny #lovegoldens #funnypets #pets #cutegolden #petvideos #funnyanimals"
     default_description = "Bounce with laughter!  This meme compilation brings you the funniest moments from the web.  Like & subscribe for more! #dankmemes #memes #fypシ #fyp"

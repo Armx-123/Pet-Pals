@@ -174,7 +174,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-    with open("Data/Part.txt","r")as f:
+    with open("Data/part.txt","r")as f:
         part =f.read()
-    with open("Data/Part.txt","w")as f:
+    with open("Data/part.txt","w")as f:
         f.write((str)((int)(part)+1))

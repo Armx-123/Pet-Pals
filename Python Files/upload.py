@@ -144,7 +144,7 @@ def main():
     default_file = "output_video.mp4"
     with open("Data/part.txt","r")as f:
         part =f.read()
-    default_title =f"Dogs being idiots part {part} #funny #lovegoldens #funnypets #pets #cutegolden #petvideos #funnyanimals"
+    default_title =f"Animals being cute part {part} #funny #lovegoldens #funnypets #pets #cutegolden #petvideos #funnyanimals"
     default_description = "Bounce with laughter!  This meme compilation brings you the funniest moments from the web.  Like & subscribe for more! #dankmemes #memes #fypシ #fyp"
     default_category = "23"
     default_keywords = "memes,dank memes"

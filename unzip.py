@@ -18,3 +18,4 @@ def unzip_file(zip_file_path, extract_to='.'):
 zip_file_path = 'file.zip'  # replace with your file path
 extract_to = ''  # replace with your desired extraction path
 unzip_file(zip_file_path, extract_to)
+subprocess.run(["python", "main.py"], check=True)
